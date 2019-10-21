@@ -54,8 +54,8 @@ ROOT_URLCONF = 'podcastproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],                 # carpeta para los templates en html
+        'APP_DIRS': True,                                              # acepta que cada app tenga carpeta de templates en html 
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
