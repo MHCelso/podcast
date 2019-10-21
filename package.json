@@ -1,0 +1,19 @@
+{
+  "name": "nodepodcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHCelso/podcast.git"
+  },
+  "author": "MHCelso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MHCelso/podcast/issues"
+  },
+  "homepage": "https://github.com/MHCelso/podcast#readme"
+}
