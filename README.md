@@ -1,1 +1,1 @@
-# Myapp
+# Myapp - Aprendiendo Django
